@@ -1,0 +1,498 @@
+/* desktop */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* home */
+
+.home{
+    height: 615px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(pexels-philipp-brügger-5894435.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.home-header{
+    color:#045694 ;
+    float: left;
+    font-size: 1.5rem;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.home-para{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+    color: white;
+}
+
+.home i{
+    display: none;
+}
+
+.nav-links{
+    padding: 22px 40px 0 0;
+    flex: 1;
+}
+
+.nav-links ul{
+    float: right;
+    display: inline;
+}
+
+.nav-links ul li{
+    text-transform: uppercase;
+    padding: 15px;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.nav-links a:hover{
+    color: teal;
+    transition: 1s;
+    }
+
+.home::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+/* home */
+
+/* competition */
+
+.com-header h1{
+    color:#045694 ;
+    padding: 10px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.int h1{
+    color: #045694;
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+.int .block{
+    display: flex;
+    float: left;
+}
+
+.int .block .cup{
+    padding: 50px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.int .block img{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+.int .block h2{
+    color:#045694 ;
+    font-size: 1rem;
+}
+
+.int .block a{
+    text-decoration: none;
+}
+.block .cup h2:hover{
+    color: orangered;
+    transition: 1s;
+}
+
+.dom h1{
+    color: #045694;
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+.dom .block{
+    display: flex;
+    float: left;
+}
+
+.dom .block .cup{
+    padding: 50px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.dom .block img{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+.dom .block h2{
+    padding-left: 0;
+    color:#045694 ;
+    font-size: 1rem;
+}
+
+.dom .block a{
+    text-decoration: none;
+}
+
+.competition::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* competition */
+
+/* matches */
+
+.matches{
+    height: 880px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(pexels-dom-le-roy-3991976.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* padding: 20px; */
+    display: block;
+}
+
+.matches h1{
+    text-align: center;
+    color: #045694;
+    font-size: 3rem;
+}
+
+.mat{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+.mat h1{
+    padding: 15px 0 15px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.mat h2{
+    font-size: 1.3rem;
+    color: #045694;
+    padding: 0 0 8px 0;
+}
+
+.mat a{
+    color: #045694;
+    text-decoration: none;
+}
+
+.mat a:hover{
+    color: orangered;
+    transition: 1s;
+}
+
+.matches .wcq{
+    width: 350px;;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 5px 25px 5px 25px;
+    color: white;
+}
+
+.matches::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* matches */
+
+
+/* ranking */
+
+.ranking{
+    background-color: rgb(207, 205, 205);
+}
+
+.rank-header h1{
+    color:#045694 ;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.table caption{
+    font-weight: bold;
+}
+
+.table table,td,th{
+    padding: 5px 20px 5px 20px;
+}
+
+.table th{
+    font-weight: lighter;
+    font-size: 18px;
+    color: gray;
+}
+
+.table a{
+    text-decoration: none;
+    color: #045694;
+}
+
+.table a:hover{
+    color: orangered;
+    transition: 1s;
+}
+
+.table1{
+    padding: 25px;
+}
+
+.table2{
+    padding: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #045694;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+/* ranking */
+
+/* desktop */
+
+/* mobile */
+
+@media(max-width:600px){
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .home{
+        height: 450px;
+        background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(pexels-philipp-brügger-5894435.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+    }
+
+    .home-header{
+        color:#045694 ;
+        float: left;
+        font-size: 1.2rem;
+        padding: 1px 0 0 5px;
+    }
+
+    .nav-links .fa-bars{
+        position: absolute;
+        left: 0px;
+        top: 20px;
+    }
+
+    .home .fa-bars{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .home .fa{
+        display: block;
+        color: #fff;
+        margin: 10px 30px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links{
+        height: 468px;
+        width: 170px;
+        background-color: teal;
+        top: 0;
+        right: -45px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+
+    .nav-links ul a{
+        display: block;
+        font-size: 1rem;
+    }
+
+    .nav-links ul a:hover{
+        color: orangered;
+        transform: 1s;
+    }
+
+    .home-para{
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .home::after{
+        cursor: '';
+        display: table;
+        clear: both;
+    }
+    
+/* home */
+    
+/* competition */
+
+.int h1{
+    font-size: 1.5rem;
+}
+
+.dom h1{
+    font-size: 1.5rem;
+}
+
+.int .block{
+    display: block;
+}
+
+.int .block img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.block .cup h2:hover{
+    color: orangered;
+    transition: 1s;
+}
+
+.dom .block{
+    display: block;
+}
+
+.dom .block img{
+    width: 110%;
+    margin: 0 auto;
+}
+
+.dom .block h2{
+    width: 115%;
+    margin: 0 auto;
+}
+
+.competition::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* competition */
+
+/* matches */
+
+.matches{
+    height: 2500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+    .mat{
+        display: block;
+        padding: 0;
+    }
+
+    .mat .wcq{
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .matches::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+/* matches */
+
+
+/* ranking */
+
+.rank-header h1{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.table{
+    display: block;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.table table,td,th{
+    padding: 5px 15px 5px 15px;
+}
+
+.table1{
+    padding: 0;
+    
+}
+
+.table2{
+    padding: 0;
+}
+
+.footer {
+    display: block;
+    font-size: 1.4rem;
+}
+
+.footer p{
+    text-align: center;
+}
+/* ranking */
+
+
+}
+
+/* mobile */
